@@ -1,23 +1,15 @@
 ```
-# Dependencies
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.py~
-*.py.class
-*.py.backup
-*.py.swp
-*.py.swo
-*.py.tmp
-*.py.log
-*.py.env
-*.py.env.local
-*.py.env.
+.Python
+env/
 venv/
 .venv/
-env/
-.ENV/
+.ENV
+.python-version
 pip-log.txt
 pip-delete-this-directory.txt
 .tox/
@@ -28,11 +20,55 @@ nosetests.xml
 coverage.xml
 *.cover
 *.log
-*.tmp
-*.bak
+*.pot
+*.pyc
+*.pyo
+*.pyd
+.MF
+tags
+TAGS
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.idea/
+.vscode/
 *.swp
 *.swo
 *~
 .DS_Store
 Thumbs.db
+
+# Build and distribution artifacts
+dist/
+build/
+*.egg-info/
+.eggs/
+.sconsign.dblite
+._del_
+*.a
+*.o
+*.so
+*.class
+*.dll
+*.exe
+*.out
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# Coverage
+htmlcov/
+.coverage*
+
+# General temp files
+*.tmp
+*.temp
 ```
