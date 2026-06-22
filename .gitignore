@@ -8,8 +8,12 @@ __pycache__/
 env/
 venv/
 .venv/
+.venv.*
 .ENV
-.python-version
+.ENV.*
+.env
+.env.*
+.env.local
 pip-log.txt
 pip-delete-this-directory.txt
 .tox/
@@ -20,55 +24,42 @@ nosetests.xml
 coverage.xml
 *.cover
 *.log
-*.pot
-*.pyc
-*.pyo
-*.pyd
-.MF
-tags
-TAGS
-*.sublime-project
-*.sublime-workspace
-.project
-.pydevproject
-.idea/
-.vscode/
-*.swp
-*.swo
-*~
-.DS_Store
-Thumbs.db
-
-# Build and distribution artifacts
-dist/
-build/
-*.egg-info/
-.eggs/
-.sconsign.dblite
-._del_
-*.a
-*.o
-*.so
-*.class
-*.dll
-*.exe
-*.out
-
-# Testing
+.git/modules/
 .pytest_cache/
 .mypy_cache/
 .hypothesis/
 
-# Environment files
-.env
-.env.local
-.env.*
+# Distribution / packaging
+.Python
+_build/
+buck-out/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Coverage
-htmlcov/
-.coverage*
+# IDEs
+.vscode/
+.idea/
 
-# General temp files
-*.tmp
-*.temp
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Thumbs.db:encryptable
 ```
